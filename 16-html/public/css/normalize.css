@@ -16,3 +16,7 @@ a {
 .hidden {
   display: none;
 }
+
+footer {
+  margin-top:15px;
+}

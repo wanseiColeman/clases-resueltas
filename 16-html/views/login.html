@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/css/home.css" />
   </head>
 
-  <body>
+  <body class="bg-light-gray">
     <header class="bg-main padding-8">
       <section>
         <h1 class="width-50">
@@ -60,7 +60,28 @@
         <i class="fas fa-bars"></i>
       </div>
     </header>
-    <main></main>
+    <main>
+      <main>
+        <form action="" method="get" class="margin-y-16 main-form width-50 align-center">
+        <h3 class="text-center text-dark-gray padding-8">Ingresa a tu cuenta</h3>
+        <label class="hidden" for="usuario">Usuario</label>
+        <input
+          class="input-box"
+          type="text"
+          name="user"
+          id="usuario"
+          placeholder="Usuario"
+        />
+        <label class="hidden" for="password">Contraseña</label>
+        <input
+          class="input-box"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Contraseña"
+        />
+        <button class="button-primary width-50" type="submit">Ingresar</button>
+    </main>
     <footer></footer>
   </body>
 </html>

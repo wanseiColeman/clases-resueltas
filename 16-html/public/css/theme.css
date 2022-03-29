@@ -80,11 +80,19 @@ body {
   margin-right: 16px;
 }
 
+.align-center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .button-primary {
   background-color: #1259c3;
   color: white;
   width: 100%;
   display: block;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
 }
 
 .button-gray {
@@ -92,4 +100,8 @@ body {
   color: white;
   width: 100%;
   display: block;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+
 }
