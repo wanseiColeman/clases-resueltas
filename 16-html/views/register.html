@@ -62,6 +62,7 @@
     </header>
     <main>
       <form action="" method="get" class="margin-y-16 main-form width-50 align-center">
+        <h3 class="text-center text-dark-gray padding-8">Crea tu cuenta</h3>       
         <label class="hidden" for="fullname">Nombre y apellido</label>
         <input
           class="input-box"
@@ -89,8 +90,8 @@
           placeholder="Email"
         />
 
-        <label for="birthdate">Fecha de nacimiento</label>
-        <input class="input-box" type="date" name="birthdate" id="birthdate" />
+        <label for="birthdate" class="text-dark-gray margin-y-8">Fecha de nacimiento</label>
+        <input class="input-box margin-y-8" type="date" name="birthdate" id="birthdate" />
 
         <label class="hidden" for="address">Domicilio</label>
         <input
@@ -101,63 +102,63 @@
           placeholder="Domicilio"
         />
 
-        <label>Perfil de usuario</label>
-        <div class="radio-list">
+        <label class="text-dark-gray">Perfil de usuario</label>
+        <div class="radio-list margin-y-8">
           <input
-            class=""
+            class="margin-y-16"
             type="radio"
             name="userProfile"
             id="buyerProfile"
             value="buyerProfile"
           />
-          <label for="buyerProfile"> Comprador</label>
+          <label class="text-dark-gray" for="buyerProfile"> Comprador</label>
           <input
-            class=""
+            class="margin-y-16"
             type="radio"
             name="userProfile"
             id="sellerProfile"
             value="sellerProfile"
           />
-          <label for="sellerProfile"> Vendedor</label>
+          <label  class="text-dark-gray" for="sellerProfile"> Vendedor</label>
         </div>
 
-        <label>Intereses</label>
+        <label class="text-dark-gray margin-y-8">Intereses</label>
         <div class="checkbox-list">
           <div>
             <input
-              class="checkbox-input"
+              class="checkbox-input margin-y-8"
               type="checkbox"
               name="intereses"
               id="electro"
               value="electro"
             />
-            <label for="electro"> Electro</label>
+            <label class= "text-dark-gray" for="electro"> Electro</label>
           </div>
           <div>
             <input
-              class="checkbox-input"
+              class="checkbox-input pmargin-y-8"
               type="checkbox"
               name="intereses"
               id="moda"
               value="moda"
             />
-            <label for="moda"> Moda</label>
+            <label class= "text-dark-gray" for="moda"> Moda</label>
           </div>
           <div>
             <input
-              class="checkbox-input"
+              class="checkbox-input margin-y-8"
               type="checkbox"
               name="intereses"
               id="hogar"
               value="hogar"
             />
-            <label for="hogar"> Hogar</label>
+            <label class= "text-dark-gray margin-y-8" for="hogar"> Hogar</label>
           </div>
         </div>
 
-        <label for="profilePic">Foto de perfil</label>
+        <label class= "text-dark-gray margin-y-16" for="profilePic">Foto de perfil</label>
         <input
-          class="input-box"
+          class="input-box margin-y-8"
           type="file"
           name="profilePic"
           id="profilePic"

@@ -52,13 +52,13 @@ body {
   padding-bottom: 16px;
 }
 
-.margin-y-16 {
-  margin-top: 16px;
-  margin-bottom: 16px;
+.margin-y-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .main-form {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .input-box {
@@ -66,13 +66,15 @@ body {
   padding: 8px;
   border: none;
   border-radius: 6px;
-
   margin-bottom: 16px;
 }
 
 .radio-list {
   display: flex;
   justify-content: space-around;
+  width:50%;
+  margin-bottom:15px;
+  align-items:center;
 }
 
 .checkbox-input {
