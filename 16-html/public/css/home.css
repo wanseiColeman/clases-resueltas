@@ -36,6 +36,20 @@
   top: -15px;
 }
 
+.heart-icon {
+  display:none;
+  position:absolute;
+  bottom: 5px;
+  right:10px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color:#1259c3;
+  right: 60px;
+  top: -15px;
+  background-color: white;
+}
+
 .description-box {
   position: relative;
   border-top: 1px solid #ebebeb;
@@ -66,6 +80,7 @@ nav {
   margin-bottom: 16px;
   margin-right: 8px;
   margin-left: 8px;
+  position: relative;
 }
 
 .description {
@@ -80,6 +95,7 @@ nav {
 .article-container {
   display: flex;
   flex-wrap: wrap;
+  /* position:relative; */
 
 }
 
@@ -130,6 +146,10 @@ nav {
 
   .burger-menu{
     display:none;
+  }
+
+  .heart-icon {
+  display:block;
   }
 
   header section {
